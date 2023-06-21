@@ -304,7 +304,6 @@ header div>div {
 	padding: 5px;
 	border: dashed 5px #227fb7;
 	cursor: pointer;
-	pointer-events: none;
 }
 
 #upward:hover {
