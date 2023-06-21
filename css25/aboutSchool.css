@@ -1,0 +1,30 @@
+/* header footer mouse upward search list  menu article*/
+@import url('./plugin.css');
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	transition: 0.5s;
+	box-sizing: border-box;
+	font-family: '微软雅黑';
+}
+
+#banner{
+	height: 100% !important;
+	opacity: 0.2;
+	top: 0;
+}
+
+main {
+	margin: 0 auto;
+	margin-top: 20vh;
+	display: flex;
+	max-width: 1200px;
+	border-top: solid 10px #458cb5;
+	align-items: flex-start;
+}

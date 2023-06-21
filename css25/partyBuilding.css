@@ -1,0 +1,57 @@
+/* header footer mouse upward search list  menu article*/
+@import url('./plugin.css');
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	transition: 0.5s;
+	box-sizing: border-box;
+	font-family: '微软雅黑';
+}
+
+/* 背景 */
+#banner{
+	height: 100% !important;
+	opacity: 0.2;
+	top: 0;
+}
+
+/* 正文 */
+main {
+	margin: 0 auto;
+	margin-top: 20vh;
+	display: flex;
+	max-width: 1200px;
+	border-top: solid 10px #458cb5;
+	align-items: flex-start;
+}
+
+.A div{
+	padding: 10px;
+	margin: 10px 0;
+	border-bottom: dashed 1px #458cb5;
+	cursor: pointer;
+}
+.A div:hover{
+	padding-left: 40px;
+	background: rgba(75, 124, 197, 0.3);
+}
+.A h2{
+	font-size: 20px;
+}
+.A h2::before{
+	content: '|';
+	margin-right: 10px;
+	color: #458cb5;
+}
+
+@media screen and (max-width:768px) {
+	.A h2{
+		font-size: 18px;
+	}
+}
